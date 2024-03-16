@@ -97,3 +97,6 @@ router.delete('/:id', (req, res) => {
 });
 
 module.exports = router;
+
+//get all, get one, delete
+//All of category first to carry over
