@@ -48,7 +48,7 @@ router.put('/:id', (req, res) => {
   
 });
 
-// TODO delete a category by its `id` value
+// To delete a category by its `id` value
 router.delete('/:id', async (req, res) => {
   try {
     const deletedRows = await Category.destroy({
@@ -63,7 +63,7 @@ router.delete('/:id', async (req, res) => {
     res.status(200).json({ message: 'Category deleted successfully' });
   } catch (err) {
     console.error(err);
-    
+
     res.status(500).json({ message: 'An error occurred while deleting the category' });
   }
 });
