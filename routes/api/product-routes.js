@@ -37,7 +37,7 @@ router.post('/', (req, res) => {
    Product.create(req.body)
     .then((product) => {
       // To create pairings to bulk create in the ProductTag model
-      if (req.body.tagIds.length) {
+      if (req.body.tagIds?.length) {
         const productTagIdArr = req.body.tagIds.map((tag_id) => {
           return {
             product_id: product.id,
@@ -63,8 +63,7 @@ router.put('/:id', (req, res) => {
     },
   })
     .then((product) => {
-      if (req.body.tagIds && req.body.tagIds.length) {
-        
+      if (req.body.tagIds && req.body.tagIds.length) { 
         ProductTag.findAll({
           where: { product_id: req.params.id }
         }).then((productTags) => {
@@ -108,8 +107,8 @@ router.delete('/:id', async (req, res) => {
       res.status(404).json({ message: 'No product with this ID' });
       return;
     }
-
     res.status(200).json({ message: 'Product deleted successfully' });
+
   } catch (err) {
     console.error(err);
 
