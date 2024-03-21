@@ -22,9 +22,17 @@ https://github.com/Jbrockhoff/E-Commerce-Back-End
 
 
 Here is a link to a walkthrough video of the application:  
+https://drive.google.com/file/d/1tCUt_9TffjTeNI67n_BQiV0nPMKvXjPM/view
 
 
 Here are screenshots of my application:
+ ![ecommerce1](./assets/ecommerce1.png)
+
+ ![ecommerce2](./assets/ecommerce2.png)
+
+ ![ecommerce3](./assets/ecommerce3.png)
+ 
+ ![ecommerce4](./assets/ecommerce4.png)
 
 
 ## License
@@ -47,5 +55,5 @@ N/A
 GitHub Username: 
 Jbrockhoff 
 
- Email address: 
- jbrockh1@gmail.com
+Email address: 
+jbrockh1@gmail.com
