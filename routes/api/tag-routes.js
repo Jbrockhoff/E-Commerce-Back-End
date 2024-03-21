@@ -41,7 +41,8 @@ router.post('/', async (req, res) => {
       const errors = err.errors.map(error => error.message);
       res.status(400).json({ errors});
     } else {
-      res.status(500).json({ error: 'Failed to create tag'})
+      res.status(
+        500).json({ error: 'Failed to create tag'})
     }
   }
   

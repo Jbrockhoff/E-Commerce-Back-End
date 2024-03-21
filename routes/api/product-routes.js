@@ -32,7 +32,7 @@ router.get('/:id', async (req, res) => {
   }
 });
   
-// To create new product
+// To create new product by id
 router.post('/', (req, res) => {
    Product.create(req.body)
     .then((product) => {
@@ -55,7 +55,7 @@ router.post('/', (req, res) => {
     });
 });
 
-// To update a product
+// To update a product by id
 router.put('/:id', (req, res) => {
   Product.update(req.body, {
     where: {
