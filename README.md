@@ -12,16 +12,20 @@ This back end application allows a user (internet retail manager) to get, create
 6. [Questions?](#questions)
 
 ## Installation
-express, mysql, sequelize
+    npm install express –g
+    npm install --save mysql2
+    npm install -g sequelize-cli
 
 ## Usage
-Here is a link to my Github repostiory:  
+Here is a link to my Github repostiory for this application:  
+https://github.com/Jbrockhoff/E-Commerce-Back-End
 
 
-Here is a link to a walkthrough video of my application:  
+Here is a link to a walkthrough video of the application:  
 
 
 Here are screenshots of my application:
+
 
 ## License
 ISC
